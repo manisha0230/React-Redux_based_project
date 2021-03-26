@@ -1,0 +1,151 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  align-content: center;
+  margin-left: auto;
+  margin-top: 33px;
+  margin-right: auto;
+}
+.edit {
+  border-radius: 10px;
+  width: 60px;
+  border-color: greenyellow;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.editform{
+  display:flex;
+  flex-wrap:wrap;
+  background-color: #dddddd;
+  padding: 40px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  display: flex;
+}
+#editform{
+  display:none;
+
+}
+.edit:active {
+  border: none;
+  background-color: none;
+}
+.delete {
+  border-radius: 10px;
+  border-color: indianred;
+  margin-right: 26px;
+  width: 60px;
+  cursor: pointer;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #dddddd;
+}
+.form {
+  background-color: #dddddd;
+  padding: 40px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  display: flex;
+}
+.add {
+  margin-top: 23px;
+  border-radius: 33px;
+  height: 36px;
+  border-color: gold;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.addmore {
+  border-radius: 33px;
+  height: 36px;
+  /* margin-bottom: -4px; */
+  border-color: gold;
+  margin-top:15px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 38px;
+  margin-right: auto;
+}
+.heading{
+display:flex;
+}
+label {
+  padding: 20px;
+  width: auto;
+  display: flex;
+}
+.task {
+  display: flex;
+  flex-wrap: wrap;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
