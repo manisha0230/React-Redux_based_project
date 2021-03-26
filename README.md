@@ -1,4 +1,4 @@
-# employeemgmtsystemusingreactredux
+# employee management system using React-Redux
 Created with CodeSandbox
 This is a project for employee management system using react redux making use of store in redux and where a user can add the details from the form and enter in a details table.
 There are also validation rules available like the name cannot be other than alphanumeric and duplicate entries are validated through names with same roles will encounter duplicate entry alert and will not be allowed to add in the table.
